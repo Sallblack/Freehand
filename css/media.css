@@ -1,0 +1,456 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (min-width:1600px){
+	.fw li p{font-size: 15px}
+	/*.nav li a{margin-left: 55px }*/
+	.title{font-size: 36px;padding-top: 70px;}
+	.gy li {
+	    width: 24.6%;
+    	margin-right: 12.6%;
+	}
+	.fa ul li a{font-size: 20px;}
+	.media_t{margin-top: 45px;}
+	.hd{margin-top: 36px;}
+	.ny_banner{margin-top: 45px;}
+	.fa{margin-top: 45px;}
+
+}
+@media screen and (min-width:2450px){
+	.nav li{margin-left: 100px;}
+	.ny_nav li{margin-left: 100px;}
+}
+@media screen and (max-width:2450px){	
+	/*.nav li a{margin-left: 40px }*/
+	.nav li{margin-left: 100px;}
+	.ny_nav li{margin-left: 100px;}
+}
+
+@media screen and (max-width:2100px){	
+	/*.nav li a{margin-left: 40px }*/
+	.nav li{margin-left: 80px;}
+	.ny_nav li{margin-left: 80px;}
+}
+
+@media screen and (max-width:1980px){	
+	/*.nav li a{margin-left: 40px }*/
+	.nav li{margin-left: 55px;}
+	.ny_nav li{margin-left: 55px;}
+	.honour_main{padding: 0px 0.246%;}
+}
+@media screen and (max-width:1900px){
+	.foot_banner{
+	    font-size: 25px;
+	}
+	.foot_banner ul{width: 1280px;height: 115px;}
+	.foot_banner ul li{float: left;text-align: center;margin-left: 38px;color: white;}
+	.foot_banner ul li p{padding-bottom: 40px;color: white;}
+	.foot_banner ul li div span{font-size: 65px;padding-right: 5px;font-weight: bold;color: white;}
+	.foot_banner ul li div{font-size:20px;color: white;}
+	.foot_banner ul li em{font-size:30px;color: white;}
+	.foot_banner ul li:nth-child(5){width: 190px}
+	.foot_banner ul li:nth-child(1){width: 160px}
+}
+@media screen and (max-width:1720px){	
+	/*.nav li a{margin-left: 40px }*/
+	.nav li{margin-left: 45px;}
+	.ny_nav li{margin-left: 45px;}
+}
+@media screen and (max-width:1600px){	
+	/*.nav li a{margin-left: 40px }*/
+	.nav li{margin-left: 20px;}
+	.ny_nav li{margin-left: 20px;}
+}
+
+
+@media screen and (max-width:1500px){	
+	/*.nav li a{margin-left: 40px }*/
+}
+
+@media screen and (max-width:1400px){
+	/*.honour_main{top: 15%;}*/
+	.title_02{line-height: 3.5em}
+	.gy{top: 15%;}
+	.fw{top: 15%}
+	.title{}
+}
+
+@media screen and (max-width:1366px){
+	.title {
+	    padding-top: 30px;
+	}
+	.foot_banner ul li p {
+	    padding-bottom: 25px;
+	    color: white;
+	}
+	.logo{height: 75px;}
+	.aff_logo_con p img{width: 37px;}
+	.aff_logo_con>div>img{width: 452px;}
+	.aff_logo_con>div{padding-top: 60px;width: 452px;}
+	.box_m{height: 252px;padding: 15px 0 46px;}
+	.box{width: 281px;top: -115px;}
+	.fixed ul li .box_m img{margin-top: 20px;}
+	.form .bg1{height: 25px;}
+	.form .bg1 p{font-size: 12px;line-height: 25px;}
+	.form .bg1 input{font-size: 12px;line-height: 25px;padding:0 0 0 10px;}
+	.form .bg1{background-size: 100% 100%;margin-bottom: 10px;}
+	.form .bg2{height: 95px;margin-bottom:10px;background-size: 100% 100%;}
+}
+@media screen and (max-width:1336px){
+	.nav li{
+		margin-left: 18px;
+	}
+	.ny_nav li{
+		margin-left: 18px;
+	}
+}
+@media screen and (max-width:1300px){
+	.foot_banner{
+	    font-size: 20px;
+	}
+	.foot_banner ul{width: 950px;height: 85px;}
+	.foot_banner ul li{float: left;text-align: center;margin-left: 18px;color: white;}
+	.foot_banner ul li p{padding-bottom: 30px;color: white;}
+	.foot_banner ul li div span{font-size: 45px;padding-right: 5px;font-weight: bold;color: white;}
+	.foot_banner ul li div{font-size:15px;color: white;}
+	.foot_banner ul li em{font-size:20px;color: white;}
+	.foot_banner ul li:nth-child(5){width: 150px}
+	.foot_banner ul li:nth-child(1){width: 130px}
+}
+@media screen and (max-width:1306px){
+	.nav li{
+		margin-left: 12px;
+	}
+	.ny_nav li{
+		margin-left: 12px;
+	}
+}
+@media screen and (max-width:1250px){
+	.fw{
+		position: static;
+		padding-bottom: 30px;
+	}
+	.gy{
+		position: static;
+	}
+	.honour_main{
+		position: static;
+	}
+	.conn{
+		position: static;
+	}
+	.honour_main{padding: 30px 0}
+	.title_02{padding: 30px 0}
+}
+@media screen and (max-width:1224px){
+	.nav li{
+		margin-left: 20px;
+	}
+	.ny_nav li{
+		margin-left: 18px;
+	}
+}
+@media screen and (max-width:1167px){
+	.con{
+		width: 98%;
+	}
+	.nav_wrap{
+		width: 98%;
+		left: 1%;
+	}
+	.nav li{
+		margin-left: 22px;
+	}
+	.ny_nav li{
+		margin-left: 22px;
+	}
+	.foot_con{
+		width: 98%;
+	}
+	.foot_p{
+		width: 98%;
+	}
+	.aff_tab li{
+		padding: 1.799485% 0 1.713796% 0;
+		margin-right:4.65552699%;
+	}
+}
+
+@media screen and (max-width:1120px){
+	.nav{
+		display: none;
+	}
+	.ny_nav{
+		display: none;
+	}
+	.nav_btn{
+		display: block;
+	}
+}
+@media screen and (max-width:952px){
+	.aff_tab li{
+		padding: 1.799485% 0 1.713796% 0;
+		margin-right:3.65552699%;
+	}
+}
+
+@media screen and (max-width:900px){
+	.clearr{
+		clear: both;
+	}
+	.foot_con dl{
+		width: 20%;
+	}
+	.foot_r{
+		float: none; text-align: center;
+	}
+	.fw li a{
+		font-size: 18px;
+	}
+}
+@media screen and (max-width:860px){
+	.aff_tab li{
+		padding: 1.799485% 0 1.713796% 0;
+		margin-right:2.15552699%;
+	}
+}
+
+@media screen and (max-width:800px){
+	.shuoming{
+		left: 70px;
+	}
+	.jiejue_l{
+		width: 70px;
+	}
+	#solve{
+		width:auto; margin-right: 0; float:left;
+	}
+	#solve li{
+		width: 102px;
+	}
+	#so{
+		width:auto; margin-right: 0; float:left;
+	}
+	#so li{
+		width: 119px;
+	}
+	.jiejue{
+		overflow: scroll;
+	}
+	.j_main{
+		width:784px;
+	}
+	.j_main1{
+		width:376px;
+	}
+	.j_main2{
+		width:665px;
+	}
+	.j_main3{
+		width:546px;
+	}
+}
+@media screen and (max-width:640px){
+	.title{
+		font-size: 24px; line-height: 3em;
+	}
+	.title_02{
+		font-size: 20px; line-height: 3em;
+	}
+	.fw .lastt{
+		margin-right: 0;
+	}
+	.fw li{
+		width: 48.32%;
+	}
+	.gy li{
+		margin-right:0;
+		float: none;
+		width: 100%;
+	}
+	.gy li a{
+		font-size: 20px;
+	}
+	.gy li p{
+		font-size: 15px;
+	}
+	.pro ul{
+		width: 100%; float: none;
+	}
+	.pro .li_con{
+		width: 100%;
+		float: none;
+	}
+	.fa ul li{
+		width: 49.78%;
+	}
+	.fa ul .lastt{
+		margin-right: 0;
+	}
+	.fa ul .lasttt{
+		margin-right: 0.44%
+	}
+	.fa ul li a{
+		font-size: 16px;
+	}
+	.media_m ul li{
+		margin-right: 25px;
+	}
+	1
+	.shuoming{
+		width: 90%;
+		left: 5%;
+	}
+	.shuoming em{
+		font-size: 24px;
+	}
+	.shuoming span{
+		font-size: 16px;
+	}
+	.hd_con{
+		width: 100%; float: none;
+	}
+	.hd_min{
+		width: 100%; float: none;
+	}
+	.hd_min li{
+		width: 32%; float: left; margin-right: 2%;
+	}
+	.hd_min .last{
+		margin-right:0;
+	}
+	.yewu ul li{
+		width: 100%; margin-right:0; float: none;
+	}
+	.youshi ul li{
+		width: 47.5%; margin-right: 5%; margin-bottom: 5%;
+
+	}
+	.youshi ul .lastt{
+		margin-right: 0;
+	}
+	.ys_clearr{
+		clear: both;
+	}
+}
+@media screen and (max-width:560px){
+	.pro_title li{
+		margin-right: 20px;
+	}
+}
+@media screen and (max-width:520px){
+	.logo{
+		width:45%; 
+	}
+	.btn{
+		margin-top: -40px;
+	}
+}
+@media screen and (max-width:500px){
+	.media_m ul li{
+		margin-right: 15px;
+	}
+	.media_m ul li a{
+		font-weight: 500; font-size: 14px;
+	}
+	.hd_title li{
+		margin-right: 25px;
+	}
+	.hd_title li a{
+		font-size: 13px;
+	}
+	.box{
+		 width: 250px; 
+	}
+	.form{
+		padding-left: 10px;
+	}
+	.shuoming{
+		width: 96%;
+		left: 2%;
+		bottom:80px;
+	}
+	.shuoming em{
+		font-size: 20px; line-height: 2em;
+	}
+	.shuoming span{
+		font-size: 14px; line-height: 1.8em
+	}
+	.shuoming p{
+		line-height: 1.5em;
+	}
+
+}
+@media screen and (max-width:480px){
+	.foot_con dl{
+		width: 90%;
+		float: none;
+		margin:0 auto;
+	}
+	.foot_con dl dt a{
+		border-bottom: 1px solid #fff; line-height: 2em; margin-bottom: 2%; font-size: 16px;
+	}
+	.foot_con dl dd a{
+		font-size: 14px;
+	}
+	.pro_title li a{
+		font-size: 13px;
+	}
+}
+@media screen and (max-width:470px){
+	.jiejue{
+		position: static;
+	}
+}
+@media screen and (max-width:420px){
+	.btn{
+		margin-top: -32px;
+	}
+	.btn li{
+		margin-bottom: 20px;
+	}
+	.foot_p p{
+		text-align: left;
+	}
+	.fw li a{
+		font-size: 16px;
+	}
+	.fw li p{
+		font-size: 13px;
+	}
+	.fa ul li a{
+		font-size: 14px;
+	}
+	.shuoming em{
+		font-size: 15px;
+		line-height: 1.2em;
+	}
+	.shuoming span{
+		font-size: 13px;
+	}
+	.jiejue_l{
+		height: 40px;
+		line-height: 17px;
+		padding-top: 3px
+	}
+	#solve li{
+		height: 43px;
+	}
+	#solve li a{
+		line-height: 43px;
+	}
+	.shuoming{
+		bottom: 45px;
+	}
+	#so li{
+		height: 43px;
+	}
+	#so li a{
+		line-height: 43px;
+	}
+}
+@media screen and (max-width:370px){
+	.hd_title li{
+		width: 100%; margin-right: 0; margin-bottom: 3%;
+	}
+}

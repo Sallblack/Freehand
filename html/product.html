@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-cn">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/media.css">
+    <script type="text/javascript" src="../js/jquery-3.0.0.min.js"></script>
+    <script type="text/javascript" src="../js/tween.js"></script>
+    <title>写意数字</title>
+</head>
+<body>
+<div class="wrap">
+		<!--nav START-->
+	<div class="con">
+		<a href="../index.html"><img src="../images/ny_logo.png" alt="" class="fl logo"></a>
+		<ul class="ny_nav">
+			<li><a href="affect.html">效果图</a></li>
+			<li><a href="multimedia.html">动画多媒体</a></li>
+			<li><a href="interaction.html">三维互动</a></li>
+			<li><a class="select" href="product.html">产品动画说明书</a></li>
+			<li><a href="project.html">行业方案</a></li>
+		</ul>
+		<!--隐藏的导航栏-->
+		<div class="nav_btn" id="nav_btn">
+			<img src="../images/nav.png" />
+			<ul class="menu" id="menu">
+				<li><a href="affect.html">效果图</a></li>
+				<li><a href="multimedia.html">动画多媒体</a></li>
+				<li><a href="interaction.html">三维互动</a></li>
+				<li><a href="product.html">产品动画说明书</a></li>
+				<li><a href="project.html">行业方案</a></li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+	<!--内页banner-->
+	<div class="ny_banner">
+		<a><img src="images/ny_banner.jpg" /></a>
+	</div>
+	<!--内容-->
+	<div class="con" id="pro_con">
+		<ul class="pro_title" id="pro_title">
+			<li><a class="cur">CG摄影</a></li>
+			<li><a>家居动画</a></li>
+			<li><a>电子产品动画</a></li>
+			<li><a>工业机械</a></li>
+			<li class="last"><a>医疗动画</a></li>
+			<div class="clear"></div>
+		</ul>
+		<div class="pro_wrap"> 
+			<div class="pro">
+				<span>业务介绍</span>
+				<p class="p">与传统的产品说明书相比，产品动画说明书通过3D的，运动的影像针对产品进行详细表述，使观看者清楚了解到产品的特性、内在结构及使用流程。摒弃了书面说明书需要对文字说明进行理解的过程，也解决了书面说明书无法表现出产品动态使用或者安装过程的问题。目前写意产品动画说明书业务服务行业包括传统制造业、家居行业、医疗行业、机械加工业、石油/矿采挖掘、风电/能源设施产品制造及加工等六大行业。主要应用于应用于产品研发、测试、展示、内部培训、新产品发布、宣传、售后服务等七大产品生产和营销环节。</p>
+				<div class="li_img">
+					<img class="video_img" src="../images/vi.jpg" />
+					<div class="video_btn">
+						<img src="../images/video_btn.png" />
+					</div>
+					<embed id="embed" src="../http://static.youku.com/v1.0.0591/v/swf/loader.swf" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+				</div>
+				<ul>
+					<span>业务优势</span>
+					<li>动态展现产品细节和使用过程，结构原理一目了然，直观清晰</li>
+					<li>新产品发布、宣传展现产品细节，在视觉上更易让受众接受产品信息</li>
+					<li>培训标准化、营销标准化、沟通标准化</li>
+				</ul>
+				<div class="li_con">
+					<span>应用建议</span>
+					<p>与传统的产品说明书相比，产品动画说明书通过3D的，运动的影像针对产品进行详细表述，使观看者清楚了解到产品的特性、内在结构及使用流程。摒弃了书面说明书需要对文字说明进行理解的过程，也解决了书面说明书无法表现出产品动态使用或者安装过程的问题。</p>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="an">
+				<span>项目案例</span>
+				<ul>
+					<li><a><img src="../images/an_01.jpg" alt=""></a></li>
+					<li><a><img src="../images/an_02.jpg" alt=""></a></li>
+					<li class="last"><a href=""><img src="../images/an_03.jpg" alt=""></a></li>
+					<li><a><img src="../images/an_04.jpg" alt=""></a></li>
+					<li><a><img src="../images/an_05.jpg" alt=""></a></li>
+					<li class="last"><a><img src="../images/an_06.jpg" alt=""></a></li>
+					<div class="clear"></div>
+				</ul>
+			</div>
+		</div>
+		<div class="pro_wrap" style="display:none">  
+			<div class="pro">
+				<span>业务介绍1</span>
+				<p class="p">与传统的产品说明书相比，产品动画说明书通过3D的，运动的影像针对产品进行详细表述，使观看者清楚了解到产品的特性、内在结构及使用流程。摒弃了书面说明书需要对文字说明进行理解的过程，也解决了书面说明书无法表现出产品动态使用或者安装过程的问题。目前写意产品动画说明书业务服务行业包括传统制造业、家居行业、医疗行业、机械加工业、石油/矿采挖掘、风电/能源设施产品制造及加工等六大行业。主要应用于应用于产品研发、测试、展示、内部培训、新产品发布、宣传、售后服务等七大产品生产和营销环节。</p>
+				<div class="li_img">
+					<img src="../images/vi.jpg" />
+					<div class="video_btn">
+						<img src="../images/video_btn.png" />
+					</div>
+				</div>
+				<ul>
+					<span>业务优势</span>
+					<li>动态展现产品细节和使用过程，结构原理一目了然，直观清晰</li>
+					<li>新产品发布、宣传展现产品细节，在视觉上更易让受众接受产品信息</li>
+					<li>培训标准化、营销标准化、沟通标准化</li>
+				</ul>
+				<div class="li_con">
+					<span>应用建议</span>
+					<p>与传统的产品说明书相比，产品动画说明书通过3D的，运动的影像针对产品进行详细表述，使观看者清楚了解到产品的特性、内在结构及使用流程。摒弃了书面说明书需要对文字说明进行理解的过程，也解决了书面说明书无法表现出产品动态使用或者安装过程的问题。</p>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="an">
+				<span>项目案例</span>
+				<ul>
+					<li><a><img src="../images/an_01.jpg" alt=""></a></li>
+					<li><a><img src="../images/an_02.jpg" alt=""></a></li>
+					<li class="last"><a href=""><img src="../images/an_03.jpg" alt=""></a></li>
+					<li><a><img src="../images/an_04.jpg" alt=""></a></li>
+					<li><a><img src="../images/an_05.jpg" alt=""></a></li>
+					<li class="last"><a><img src="../images/an_06.jpg" alt=""></a></li>
+					<div class="clear"></div>
+				</ul>
+			</div>
+		</div>
+		<div class="pro_wrap" style="display:none"> 
+			<div class="pro">
+				<span>业务介绍2</span>
+				<p class="p">与传统的产品说明书相比，产品动画说明书通过3D的，运动的影像针对产品进行详细表述，使观看者清楚了解到产品的特性、内在结构及使用流程。摒弃了书面说明书需要对文字说明进行理解的过程，也解决了书面说明书无法表现出产品动态使用或者安装过程的问题。目前写意产品动画说明书业务服务行业包括传统制造业、家居行业、医疗行业、机械加工业、石油/矿采挖掘、风电/能源设施产品制造及加工等六大行业。主要应用于应用于产品研发、测试、展示、内部培训、新产品发布、宣传、售后服务等七大产品生产和营销环节。</p>
+				<div class="li_img">
+					<img src="../images/vi.jpg" />
+					<div class="video_btn">
+						<img src="../images/video_btn.png" />
+					</div>
+				</div>
+				<ul>
+					<span>业务优势</span>
+					<li>动态展现产品细节和使用过程，结构原理一目了然，直观清晰</li>
+					<li>新产品发布、宣传展现产品细节，在视觉上更易让受众接受产品信息</li>
+					<li>培训标准化、营销标准化、沟通标准化</li>
+				</ul>
+				<div class="li_con">
+					<span>应用建议</span>
+					<p>与传统的产品说明书相比，产品动画说明书通过3D的，运动的影像针对产品进行详细表述，使观看者清楚了解到产品的特性、内在结构及使用流程。摒弃了书面说明书需要对文字说明进行理解的过程，也解决了书面说明书无法表现出产品动态使用或者安装过程的问题。</p>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="an">
+				<span>项目案例</span>
+				<ul>
+					<li><a><img src="../images/an_01.jpg" alt=""></a></li>
+					<li><a><img src="../images/an_02.jpg" alt=""></a></li>
+					<li class="last"><a href=""><img src="../images/an_03.jpg" alt=""></a></li>
+					<li><a><img src="../images/an_04.jpg" alt=""></a></li>
+					<li><a><img src="../images/an_05.jpg" alt=""></a></li>
+					<li class="last"><a><img src="../images/an_06.jpg" alt=""></a></li>
+					<div class="clear"></div>
+				</ul>
+			</div>
+		</div>
+		<div class="pro_wrap" style="display:none"> 
+			<div class="pro">
+				<span>业务介绍3</span>
+				<p class="p">与传统的产品说明书相比，产品动画说明书通过3D的，运动的影像针对产品进行详细表述，使观看者清楚了解到产品的特性、内在结构及使用流程。摒弃了书面说明书需要对文字说明进行理解的过程，也解决了书面说明书无法表现出产品动态使用或者安装过程的问题。目前写意产品动画说明书业务服务行业包括传统制造业、家居行业、医疗行业、机械加工业、石油/矿采挖掘、风电/能源设施产品制造及加工等六大行业。主要应用于应用于产品研发、测试、展示、内部培训、新产品发布、宣传、售后服务等七大产品生产和营销环节。</p>
+				<div class="li_img">
+					<img src="../images/vi.jpg" />
+					<div class="video_btn">
+						<img src="../images/video_btn.png" />
+					</div>
+				</div>
+				<ul>
+					<span>业务优势</span>
+					<li>动态展现产品细节和使用过程，结构原理一目了然，直观清晰</li>
+					<li>新产品发布、宣传展现产品细节，在视觉上更易让受众接受产品信息</li>
+					<li>培训标准化、营销标准化、沟通标准化</li>
+				</ul>
+				<div class="li_con">
+					<span>应用建议</span>
+					<p>与传统的产品说明书相比，产品动画说明书通过3D的，运动的影像针对产品进行详细表述，使观看者清楚了解到产品的特性、内在结构及使用流程。摒弃了书面说明书需要对文字说明进行理解的过程，也解决了书面说明书无法表现出产品动态使用或者安装过程的问题。</p>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="an">
+				<span>项目案例</span>
+				<ul>
+					<li><a><img src="../images/an_01.jpg" alt=""></a></li>
+					<li><a><img src="../images/an_02.jpg" alt=""></a></li>
+					<li class="last"><a href=""><img src="../images/an_03.jpg" alt=""></a></li>
+					<li><a><img src="../images/an_04.jpg" alt=""></a></li>
+					<li><a><img src="../images/an_05.jpg" alt=""></a></li>
+					<li class="last"><a><img src="../images/an_06.jpg" alt=""></a></li>
+					<div class="clear"></div>
+				</ul>
+			</div>
+		</div>
+		<div class="pro_wrap" style="display:none"> 
+			<div class="pro">
+				<span>业务介绍4</span>
+				<p class="p">与传统的产品说明书相比，产品动画说明书通过3D的，运动的影像针对产品进行详细表述，使观看者清楚了解到产品的特性、内在结构及使用流程。摒弃了书面说明书需要对文字说明进行理解的过程，也解决了书面说明书无法表现出产品动态使用或者安装过程的问题。目前写意产品动画说明书业务服务行业包括传统制造业、家居行业、医疗行业、机械加工业、石油/矿采挖掘、风电/能源设施产品制造及加工等六大行业。主要应用于应用于产品研发、测试、展示、内部培训、新产品发布、宣传、售后服务等七大产品生产和营销环节。</p>
+				<div class="li_img">
+					<img src="../images/vi.jpg" />
+					<div class="video_btn">
+						<img src="../images/video_btn.png" />
+					</div>
+				</div>
+				<ul>
+					<span>业务优势</span>
+					<li>动态展现产品细节和使用过程，结构原理一目了然，直观清晰</li>
+					<li>新产品发布、宣传展现产品细节，在视觉上更易让受众接受产品信息</li>
+					<li>培训标准化、营销标准化、沟通标准化</li>
+				</ul>
+				<div class="li_con">
+					<span>应用建议</span>
+					<p>与传统的产品说明书相比，产品动画说明书通过3D的，运动的影像针对产品进行详细表述，使观看者清楚了解到产品的特性、内在结构及使用流程。摒弃了书面说明书需要对文字说明进行理解的过程，也解决了书面说明书无法表现出产品动态使用或者安装过程的问题。</p>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<div class="an">
+				<span>项目案例</span>
+				<ul>
+					<li><a><img src="../images/an_01.jpg" alt=""></a></li>
+					<li><a><img src="../images/an_02.jpg" alt=""></a></li>
+					<li class="last"><a href=""><img src="../images/an_03.jpg" alt=""></a></li>
+					<li><a><img src="../images/an_04.jpg" alt=""></a></li>
+					<li><a><img src="../images/an_05.jpg" alt=""></a></li>
+					<li class="last"><a><img src="../images/an_06.jpg" alt=""></a></li>
+					<div class="clear"></div>
+				</ul>
+			</div>
+		</div>
+
+	</div>
+	<!--底部-->
+	<div class="footer">
+		<div class="foot_con">
+			<dl>
+				<dt><a href="">写意集团</a></dt>
+				<dd><a href="">关于写意</a></dd>
+				<dd><a href="">人才招聘</a></dd>
+				<dd><a href="">联系我们</a></dd>
+			</dl>
+			<dl>
+				<dt><a href="index.html">写意数字</a></dt>
+				<dd><a href="affect.html">效果图</a></dd>
+				<dd><a href="multimedia.html">动画多媒体</a></dd>
+				<dd><a href="interaction.html">三维互动</a></dd>
+				<dd><a href="product.html">产品动画说明书</a></dd>
+				<dd><a href="project.html">行业方案</a></dd>
+				<dd><a href="">关于我们</a></dd>
+				<dd><a href="">人才招聘</a></dd>
+				<dd><a href="">联系我们</a></dd>
+			</dl>
+			<dl>
+				<dt><a href="">意凡设计</a></dt>
+				<dd><a href="">关于我们</a></dd>
+				<dd><a href="">设计团队</a></dd>
+				<dd><a href="">项目案例</a></dd>
+				<dd><a href="">联系我们</a></dd>
+			</dl>
+			<dl>
+				<dt><a href="">写意BIM</a></dt>
+				<dd><a href="">概述</a></dd>
+				<dd><a href="">团队介绍</a></dd>
+				<dd><a href="">BIM项目服务</a></dd>
+				<dd><a href="">BIM培训服务</a></dd>
+				<dd><a href="">案例介绍</a></dd>
+			</dl>
+			<dl>
+				<dt><a href="">意展展示</a></dt>
+				<dd><a href="">关于意展</a></dd>
+				<dd><a href="">展馆工程</a></dd>
+				<dd><a href="">线上展馆体验</a></dd>
+				<dd><a href="">技术与创意</a></dd>
+				<dd><a href="">服务流程</a></dd>
+				<dd><a href="">人才招聘</a></dd>
+			</dl>
+			<div class="clearr"></div>
+			<div class="foot_r">
+				<a href="" class="zixun">
+					<img src="../images/zixun.jpg" />
+				</a>
+				<div class="clear"></div>
+				<span>400-168-6598</span>
+				<p>周一至周日9:00－18:00</p>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="top" id="top">
+			<img src="../images/top.png" />
+		</div>
+	</div>
+	<div class="foot_bottom">
+		<div class="foot_p">
+			<p>Copyright © 1998-2015 写意集团版权所有</p>
+			<div class="english">
+				<a target="_blank" href="http://shiningcg.com/">English<img src="../images/qiehuan.jpg" alt="" /></a>
+			</div>
+		</div>
+	</div>
+	
+</div>
+<div class="fixed">
+    <ul>
+        <li id = "contact"><img src="../images/contact_01.png" />
+            <!--联系我们 -->
+            <div class="box">
+                <div class="box_t"> </div>
+                <div class="box_h">
+                    <span>联系我们</span>
+                    <div class="guanbi" id="guanbi">
+                        <img src="../images/guanbi.jpg" />
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="box_m">
+                    <form class="form">
+                        <div class="bg1">
+                            <p>姓名*</p>
+                            <input type="text" class="in1" value="" onFocus="if(this.value == this.defaultValue){this.value = ''}" onBlur="if(this.value == ''){this.value = this.defaultValue}"/>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bg1">
+                            <p>固定电话:</p>
+                            <input type="text" class="in2" value="" onFocus="if(this.value == this.defaultValue){this.value = ''}" onBlur="if(this.value == ''){this.value = this.defaultValue}"/>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bg1">
+                            <p>手机号:</p>
+                            <input type="text" class="in3" value="" onFocus="if(this.value == this.defaultValue){this.value = ''}" onBlur="if(this.value == ''){this.value = this.defaultValue}"/>
+                            <div class="clear"></div>
+                        </div>
+                        <div class="bg1">
+                            <p>电子邮件:</p>
+                            <input type="text" class="in2" value="" onFocus="if(this.value == this.defaultValue){this.value = ''}" onBlur="if(this.value == ''){this.value = this.defaultValue}"/>
+                            <div class="clear"></div>
+                        </div>
+						<textarea class="bg2">
+
+						</textarea>
+                        <input type="submit" class="send" value="" onClick="submit_form()" />
+                    </form>
+                </div>
+            </div>
+        </li>
+        <li><img src="../images/contact_02.png" />
+			<div class="box">
+                <div class="box_t"> </div>
+                <div class="box_h">
+                    <span>联系我们</span>
+                    <div class="guanbi" id="guanbi">
+                        <img src="../images/guanbi.jpg" />
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="box_m">
+                    <img src="../img/xl.jpg" alt="">
+                </div>
+            </div>
+        </li>
+        <li><img src="../images/contact_03.png" />
+			<div class="box">
+                <div class="box_t"> </div>
+                <div class="box_h">
+                    <span>联系我们</span>
+                    <div class="guanbi" id="guanbi">
+                        <img src="../images/guanbi.jpg" />
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="box_m">
+                    <img src="../img/wx.jpg" alt="">
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
+</body>
+<script type="text/javascript" src="../js/banner.js"></script>
+<script type="text/javascript">
+$.fn.extend({
+	sTopFn:function  (end,Fn) {
+		var start = $(window).scrollTop();
+		var change = end-start;
+		var t = 0;
+		var endT = 30;
+		var timer = setInterval(function(){
+			t++;
+			if (t>endT) {
+				clearInterval(timer);		
+				Fn && Fn();
+			}else{
+				var top = easeOut(t,start,change,endT);
+				$(window).scrollTop(top)
+			}
+
+		},20)
+		function easeOut(t,b,c,d){
+      	  return c*((t=t/d-1)*t*t + 1) + b;
+   		}
+	},
+	
+})
+
+
+	var $navBtn=$("#nav_btn");
+	var $menu=$("#menu");
+	$navBtn.click(function () {
+		$menu.slideToggle("slow");		
+	})
+	//产品说明
+	var $pro_con=$("#pro_con");
+	var $pro_wrap=$pro_con.find(".pro_wrap");
+    var $pro_title = $("#pro_title li a");
+    var $select=$pro_title.eq(0);
+    var $wrap_select=$pro_wrap.eq(0);
+    $pro_title.click(function(){
+    	$select.removeClass("cur");
+    	$(this).addClass("cur");
+    	$wrap_select.hide();
+    	$select=$(this);
+    	$pro_wrap.eq($(this).parent().index()).show();
+    	$wrap_select=$pro_wrap.eq($(this).parent().index());
+    });
+    
+    $(window).on("scroll",function  () {
+		if ($(window).scrollTop()<$(window).height()/2) {
+	        $("#top").css("position","absolute");
+	    }else{
+	        $("#top").css("position","fixed");
+	    }
+	    if ($(window).scrollTop()>=$(".foot_p").offset().top-$(window).height()) {
+	        $("#top").css("position","absolute");
+	    };
+	})
+
+	$(".li_img").on("click",function  (ev) {
+		// $(this).find(".video_img").hide();
+		$("#embed").css("display","block");
+		$(".pro .li_img img").css("opacity","0");
+		$(".pro .li_img").height($(".pro .li_img").width()/2);
+		$(window).scrollTop();
+		$(window).sTopFn($(".pro_wrap").offset().top)
+		ev.stopPropagation();
+	})
+	$(window).on("click",function  () {
+		$(".pro .li_img").css("height","auto");
+		$(".pro .li_img img").css("opacity","1");
+		$("#embed").css("display","none");
+	})
+
+</script>
+<script type="text/javascript" src="../js/top.js"></script>
+</html>
